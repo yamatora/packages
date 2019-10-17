@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CopyToClipboard.exe" version="1.0.0.0" publicKeyToken="97af364c54e62a4e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CopyToClipboard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CopyToClipboard.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC マニフェスト オプション
+          Windows のユーザー アカウント制御のレベルを変更するには、
+          requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         下位互換性を保つためにファイルおよびレジストリの仮想化を使用する場合、
+         requestedExecutionLevel ノードを削除します。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CopyToClipboard.exe" size="13792">
+      <assemblyIdentity name="CopyToClipboard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/7bEZpUrWRDCbw2zQKF+c7yP2E9Bz+sGgrmY0be4TIM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CopyToClipboard.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-7RGHABL\山田　大河" issuerKeyHash="d2703a944cade8becdd43019d3c3684e8964e556" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>H2/I2ThfacjLdPFOIJe5p9eNN3d6oHAnKFPu0eVtMPI=</DigestValue></Reference></SignedInfo><SignatureValue>GIEvyap71IsIV9JIgh1uk7BgB0RvIUXongABK3IOJuUPbaP4IMMn/KKGp+9j0vRPnV+Dcn51M9Y+RIjkdYrz7RkcX9Q52craXymFpYEHBnL2lHjFHrz6Btxas/dhfxTEcA/BWNZsf3e0GS4JPjyZMX2OGOiFT+2gHUUOfKRFudM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tdSaOH+0GqTedsdOvSMiRh52iNB7Nx+UIRABBhy4upe6l2qKiH+KJu5y/AejFSbvrdiEKEDbmog2de/faQLUjkdRHq52D0IScXRTXEe9ps63mRkrV5CGHyU4DkQ0iUY2ePggv5ELqLMbsKhzNki0UkXiHGAk5RLGeQnAPUby9EE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f2306de5d1ee53282770a07a77378dd7a7b997204ef174cbc8695f38d9c86f1f" Description="" Url=""><as:assemblyIdentity name="CopyToClipboard.exe" version="1.0.0.0" publicKeyToken="97af364c54e62a4e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-7RGHABL\山田　大河</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>97Y4g8VlcRQCw9Ueiy+Yczvw294uODQzeGyBScaKv5w=</DigestValue></Reference></SignedInfo><SignatureValue>C3H2Z0z/PLu0gdvYE7v+OMoLz3sVtA4h7ZMNyfmq0E7vOi0Vnkybl9hfMlZfC+I9L0xRmgeRAjQ9p/Ncjp37MBWpwcxfEWbX0CNkmelVJJbj4ToZDMVoLSP2BQiAOm3QSCZcaORaQ8/4QL3bYYsUqvbVoktOPAMcTVmYNRdGQN8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tdSaOH+0GqTedsdOvSMiRh52iNB7Nx+UIRABBhy4upe6l2qKiH+KJu5y/AejFSbvrdiEKEDbmog2de/faQLUjkdRHq52D0IScXRTXEe9ps63mRkrV5CGHyU4DkQ0iUY2ePggv5ELqLMbsKhzNki0UkXiHGAk5RLGeQnAPUby9EE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQF0adrHI8aoxA9S6UTRbD5TANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADcAUgBHAEgAQQBCAEwAXFxxdTAwAFknbLMwHhcNMTkwODI2MTY0MTAzWhcNMjAwODI1MjI0MTAzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADcAUgBHAEgAQQBCAEwAXFxxdTAwAFknbLMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALXUmjh/tBqk3nbHTr0jIkYedojQezcflCEQAQYcuLqXupdqioh/iibucvwHoxUm763YhChA25qINnXv32kC1I5HUR6udg9CEnF0U1xHvabOt5kZK1eQhh8lOA5ENIlGNnj4IL+RC6izG7CoczZItFJF4hxgJOUSxnkJwD1G8vRBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEANgH1aSLbs3KYf7r/FbVRUuWIYxOXUsLiNNU0sLUoCVkbcc+LZdh/iSxfcpiF6FxrS/qvzBXxJWCut4VKQph1czXs09nizV8UL1W3yUKVwlb+vpITTDZMwFnKM7smay/tMrN4jFqRj0jiIARo1kn5PfoU+WidJXZa1igB5/PgaRE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
